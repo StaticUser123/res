@@ -1,0 +1,137 @@
+@page {
+    margin: 6mm; /* Adjust to the desired margin size */
+    }   
+    html, body{
+    margin: 0; padding: 0; 
+    overflow-x: hidden !important;
+    }
+    div, p, table { 
+        page-break-inside: avoid; 
+    }
+    hr {
+    border-top: 1.5pt solid black !important;
+    margin: 0px;
+    } 
+    .cv-template-001 {
+    color: black;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    }
+    .cv-template-001 #name {
+    font-weight: 800;
+    text-align: center;
+    font-size: 22pt;
+    margin: 0px;
+    }
+
+    .cv-template-001 #professional_title {
+    font-weight: 800;
+    text-align: center;
+    font-size: 14pt;
+    margin: 0px;
+    }
+    .cv-template-001 #basic_info {
+    text-align: center;
+    }
+    .cv-template-001 #contact {
+    font-size: 10.5pt;
+    margin-top: 0px;
+    margin-bottom: 11pt;
+    text-align: center;
+    }
+    .cv-template-001 #specielity {
+    font-size: 11pt;
+    text-align: center;
+    font-weight: bold;
+    }
+    .cv-template-001 #area_of_expertise {
+    font-size: 11pt;
+    margin: 0px;
+    letter-spacing: -0.5px;
+    }
+    .cv-template-001 .col-md-3{
+    font-size: 11pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    padding: 0pt !important;
+    width: 25%;
+    padding-left: 20px;
+    letter-spacing: -0.5px;
+    flex: 0 0 auto;
+    width: 25%;
+    }
+    *{
+    box-sizing: border-box;
+    }    
+    .cv-template-001 h1 {
+    font-size: 11pt;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    }    
+    .cv-template-001 .divs h2 {
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: -0.5px;
+    }
+    .cv-template-001 .span {
+    font-size: 11pt;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 0PX;
+    }
+    .cv-template-001 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    }
+    .cv-template-001 .divs p{
+    font-size: 11pt;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 11pt;
+    }
+    .cv-template-001 .divs {
+    font-size: 11pt !important;
+    }
+    ul li {
+    line-height: .7; 
+    margin-bottom: 4pt; 
+    }
+    #area_of_expertise ul li{
+    margin-bottom: 0pt !important;
+    padding: 0px;
+    }
+    .cv-template-001 ul li::before {
+    content: "•"; 
+    font-size: 20pt; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+    vertical-align: middle;
+    }
+    ul {
+    margin-top: 0px;
+    list-style-type: none; /* This removes the default bullets */
+    }
+    .cv-template-001 hr {
+    margin-bottom: 10pt !important;
+    border-top: 1px solid black;
+    margin: 0px;
+    }
+    .cv-template-001 #certification p {
+        padding: 0px;
+        margin: 0px;
+    }
+    .cv-template-001 #interests li{
+        margin-bottom: 0pt;
+    }
+    .cv-template-001 .mt5 {
+    margin-top: 11pt;
+    letter-spacing: -0.5px;
+    }
