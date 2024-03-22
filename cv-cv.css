@@ -1,7 +1,8 @@
-@page {
+    @page {
     margin: 6mm; /* Adjust to the desired margin size */
     }   
     html, body{
+        font-size: 11pt;
     margin: 0; padding: 0; 
     overflow-x: hidden !important;
     }
@@ -107,13 +108,14 @@
     margin-bottom: 0pt !important;
     padding: 0px;
     }
+
     .cv-template-001 ul li::before {
     content: "•"; 
     font-size: 20pt; 
     display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-    vertical-align: middle;
+    width: .8em;
+    margin-left: -.8em;
+    vertical-align: sub;
     }
     ul {
     margin-top: 0px;
@@ -125,13 +127,72 @@
     margin: 0px;
     }
     .cv-template-001 #certification p {
-        padding: 0px;
-        margin: 0px;
+    padding: 0px;
+    margin: 0px;
     }
     .cv-template-001 #interests li{
-        margin-bottom: 0pt;
+    margin-bottom: 0pt;
     }
     .cv-template-001 .mt5 {
     margin-top: 11pt;
     letter-spacing: -0.5px;
     }
+    .cv-template-001 .flex-contact{
+    padding: 0px !important;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .cv-template-001 .flex-contact p, .flex-contact span {
+    text-align: center;
+    margin: 0;
+    }
+    .cv-template-001 #norm-hr {
+    border-top: 1.5pt solid black !important;
+    margin: 0px !important;
+    }
+
+    .cv-template-001 span {
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+    .cv-template-001 .Speciality {
+    font-size: 11pt;
+    justify-content: center;
+    display: flex;
+    }
+    .cv-template-001 .Speciality p, .Speciality span {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    }
+    .nrule {
+    height: auto;
+    display: flex;
+    }
+    .cv-template-001 p {
+    line-height: 1;
+    }
+    .cv-template-001 ul {
+    padding-left: 40px;
+    margin-top: 0px;
+    list-style-type: none;
+    }
+    .cv-template-001 #area_of_expertise ul li {
+  margin: 0pt !important;
+  padding: 0px;
+}
+
+.cv-template-001 ul li {
+  line-height: .7;
+  margin-bottom: 4pt;
+}
+.cv-template-001 .row div {
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding: 0pt !important;
+  width: 25% !important;
+  flex: 0 0 auto;
+}
