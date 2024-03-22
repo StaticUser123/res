@@ -173,7 +173,7 @@
     display: flex;
     }
     .cv-template-001 p {
-    line-height: 1;
+    line-height: 1.2;
     }
     .cv-template-001 ul {
     padding-left: 40px;
@@ -195,4 +195,13 @@
   padding: 0pt !important;
   width: 25% !important;
   flex: 0 0 auto;
+}
+.cv-template-001 .date-bar {
+  display: flex;
+}
+.cv-template-001 .date-bar h2 {
+  width: 50%;
+}
+.cv-template-001 .date-bar .date {
+  text-align: end;
 }
